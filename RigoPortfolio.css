@@ -1,0 +1,17 @@
+body{
+  background-color: #1d2731;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+.nav{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+padding: 00px;
+}
+
+.heading{
+  background-color: black;
+  color: azure;
+  padding: 00px;
+}
