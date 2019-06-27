@@ -17,8 +17,33 @@
             | <a href="Services.html">Services</a>
             | <a href="Contact.html">Contact</a> </h3>
     </div>
-    <div>
-        
+    <blockquote id="contact-form">
+        <div>
+            <form action="process.php" method="POST">
+                <div>
+                    <label>First Name</label>
+                    <input type="text" name="FirstName" placeholder="Enter First Name">
+                </div>
+                <br>
+                <div>
+                    <form action="process.php" method="POST">
+                        <label>Last Name</label>
+                        <input type="text" name="LastName" placeholder="Enter Last Name">
+                </div>
+                <br>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Enter Email">
+                </div>
+                <br>
+                <div>
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <input type="Submit" name="Submit" value="Submmit">
+    </blockquote>
+    </form>
+
     </div>
     <footer>
         <p> Copyright &copy; 2017</p>
