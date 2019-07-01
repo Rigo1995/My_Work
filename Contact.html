@@ -9,43 +9,50 @@
     <link rel="stylesheet" href="RigoPortfolio.css">
 </head>
 
-<body id="contact">
+<body>
 
-    <h1>Contact Me</h1>
-    <header id="main-header">
-        <h3 class="nav"> <a href="RigoPortfolio.html">Home</a> |<a href="About-Me.html">About Me</a> | <a
-                href="Portfolio.html">Portfolio</a>
-            | <a href="Services.html">Services</a>
-            | <a href="Contact.html">Contact</a> 
-        </h3>
-        </header>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+                LOGO
+            </div>
+            <div class="menu">
+                <ul>
+                    <li> <a href="RigoPortfolio.html">Home</a></li>
+                    <li> <a href="About-Me.html">About Me</a></li>
+                    <li> <a href="Portfolio.html">Portfolio</a></li>
+                    <li> <a href="Services.html">Services</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <blockquote id="contact-form">
-        <div>
-            <form action="process.php" method="POST">
-                <div>
-                    <label>First Name</label>
-                    <input type="text" name="FirstName" placeholder="Enter First Name">
-                </div>
-                <br>
-                <div>
-                    <form action="process.php" method="POST">
-                        <label>Last Name</label>
-                        <input type="text" name="LastName" placeholder="Enter Last Name">
-                </div>
-                <br>
-                <div>
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Enter Email">
-                </div>
-                <br>
-                <div>
-                    <label>Message</label>
-                    <textarea name="message"></textarea>
-                </div>
-                <input type="Submit" name="Submit" value="Submmit">
-    </blockquote>
-    </form>
+
+    <div>
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="FirstName" placeholder="Enter First Name">
+            </div>
+            <br>
+            <div>
+                <form action="process.php" method="POST">
+                    <label>Last Name</label>
+                    <input type="text" name="LastName" placeholder="Enter Last Name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter Email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <input type="Submit" name="Submit" value="Submmit">
+
+        </form>
 
     </div>
     <footer>
