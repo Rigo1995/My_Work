@@ -40,7 +40,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 .menu{
   float: right;
-  line-height: 50px;
+  line-height: 80px;
 }
 .menu ul{
   list-style: none;
@@ -93,6 +93,7 @@ ul li:nth-child(5) a {
 .contact-section h1{
   text-align: center;
   color: #fff;
+  line-height: 200px;
 }
 .border{
   width: 100px;
