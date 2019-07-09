@@ -46,6 +46,38 @@ body{
   float: right;
   line-height: 80px;
 }
+.menu ul{
+  list-style: none;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 0 20px;
+}
+ul li:nth-child(5) a {
+  color: rgb(255, 135, 0);
+  border: 1px solid rgb(225, 135, 0);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.header{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header h1 {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
 *{
   color: rgb(255, 255, 255);
   margin: 0;
@@ -104,39 +136,7 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
   background: #ff8700; 
 }
-.menu ul{
-  list-style: none;
-}
-.menu ul li{
-  display: inline-block;
-}
-.menu ul li{
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-  font-weight: lighter;
-  padding: 0 20px;
-}
-ul li:nth-child(5) a {
-  color: rgb(255, 135, 0);
-  border: 1px solid rgb(225, 135, 0);
-  border-radius: 20px;
-  padding: 10px 20px;
-}
 
-.header{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.header h1 {
-  color: #fff;
-  font-size: 46px;
-  font-weight: 400;
-  margin-bottom: 8px;
-}
 .contact-form-btn:hover{
   background: #ff8700; 
 }
