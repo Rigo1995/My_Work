@@ -52,11 +52,18 @@ body{
   padding: 0;
 }
 .contact-section{
-  background: cover;
+  background: no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: #fff;
+  line-height: 80px;
 }
 .border{
-  width: 100px;
-  height: 10px;
+  width: 100%;
+  height: 100%;
   margin: 150px auto;
 }
 .menu ul{
@@ -93,11 +100,6 @@ ul li:nth-child(5) a {
   margin-bottom: 8px;
 }
 
-.contact-section h1{
-  text-align: center;
-  color: #fff;
-  line-height: 80px;
-}
 .contact-form{
   max-width: 600px;
   margin: auto;
