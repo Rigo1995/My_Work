@@ -78,6 +78,7 @@ ul li:nth-child(5) a {
   font-weight: 400;
   margin-bottom: 8px;
 }
+/*Contact*/
 *{
   color: rgb(255, 255, 255);
   margin: 0;
@@ -86,7 +87,7 @@ ul li:nth-child(5) a {
 .contact-section{
   background: no-repeat center;
   background-size: cover;
-  padding: 40px 0;
+  padding: 40px 0px;
 }
 .contact-section h1{
   text-align: center;
@@ -136,25 +137,20 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
   background: #ff8700; 
 }
-
-.contact-form-btn:hover{
-  background: #ff8700; 
-}
-
-
+/* profile */
 .box{
   width: 450px;
   background: rgb(0, 0, 0, 0.4);
-  padding: 40px;
+  padding: 40px 0;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 15%;
   color: white;
 }
  .box-img{
    border-radius: 50%;
-   width: 208px;
-   height: 208px;
+   width: 150px;
+   height: 150px;
  }
  .box h1{
    letter-spacing: 4px;
